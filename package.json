@@ -6,7 +6,8 @@
   "scripts": {
     "test": "lab test -a code -t 90 -L",
     "test:watch": "nodemon --exec lab test -a code -t 90 -L",
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "sequelize": "sequelize"
   },
   "repository": {
     "type": "git",
